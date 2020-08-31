@@ -1,0 +1,31 @@
+{
+	"name": "Headspin",
+	"author": "ME",
+	"description": "this is an example emote",
+	"you can add": "comment like this",
+	"emote":{
+		"beginTick":12,
+		"endTick":70,
+		"stopTick":75,
+		"degrees":true,
+		"moves":[
+			{
+				"tick":12,
+				"easing": "InOutSine",
+				"head":{
+					"yaw":-96
+				}
+			},
+			{
+				"tick": 45,
+				"easing": "linear",
+				"turn": -10,
+				"comment": "after tick 45 the right arm's yaw will set back with a full turn",
+				"head": {
+					"yaw": 3663,
+					"comment": "you cannot define a value for the same tick twice (in this case pitch)"
+				}
+			}
+		]
+	}
+}
