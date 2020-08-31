@@ -1,6 +1,5 @@
 # Emotecraft
-Emotecraft is a Minecraft mod to add emotes to the game like in Bedrock Edition...
-Go here for more infomation on the mod itself:
+Emotecraft is a Minecraft mod to add emotes to the game like in Bedrock Edition. For more infomation on the mod itself go here:
 https://www.curseforge.com/minecraft/mc-mods/emotecraft
 
 This is the pulic respository to find and download community made emotes
