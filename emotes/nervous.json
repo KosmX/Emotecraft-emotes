@@ -1,0 +1,112 @@
+{
+    "name": "Shy/Nervous",
+    "author": "Helper###",
+    "description": "Shy or Nervous?",
+    "emote":{
+        "isLoop": "true",
+        "returnTick": 8,
+        "beginTick":0,
+        "endTick":20,
+        "stopTick":21,
+        "degrees":false,
+        "moves":[
+            
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "rightArm":{
+                    "yaw":1.05
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "rightArm":{
+                    "roll":0.26
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "rightArm":{
+                    "pitch":0.8
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "rightArm":{
+                    "y":2.0
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "rightArm":{
+                    "z":1.0
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "rightArm":{
+                    "x":-4.5
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "leftArm":{
+                    "roll":-0.26
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "leftArm":{
+                    "yaw":-1.05
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "leftArm":{
+                    "pitch":0.8
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "leftArm":{
+                    "y":2.0
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "leftArm":{
+                    "z":1.0
+                }
+            },
+            {
+                "tick":10,
+                "easing": "EASEOUTQUAD",
+                "turn": 0,
+                "leftArm":{
+                    "x":4.5
+                }
+            }
+        ]
+    }
+}
