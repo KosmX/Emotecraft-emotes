@@ -1,0 +1,45 @@
+{
+    "name": "Sit",
+    "author": "KosmX",
+    "description": "Example bend emote",
+    "emote":{
+        "isLoop": "true",
+        "returnTick": 10,
+        "beginTick":0,
+        "endTick":60,
+        "stopTick":61,
+        "degrees":true,
+		"comment":"The bend and axis values are angles, These can be in degrees or radians",
+        "moves":[
+            {
+                "tick":12,
+                "easing": "EASEINOUTQUAD",
+                "turn": 0,
+                "leftLeg":{
+                    "bend":110,
+					"comment":"You can add bend or axis here.",
+					"pitch":-130
+                },
+                "rightLeg":{
+                    "bend":110,
+					"pitch":-130
+                },
+				"torso":{
+					"pitch":20,
+					"bend": 20,
+					"comment":"Try experimenting with these values. ",
+					"y": -0.67
+				},
+				"leftArm":{
+					"pitch":-10
+				},
+				"rightArm":{
+					"bend": -73,
+					"roll":80,
+					"pitch": -60,
+					"yaw": -15
+				}
+            }
+        ]
+    }
+}
