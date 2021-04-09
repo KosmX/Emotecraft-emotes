@@ -3,7 +3,7 @@
     "author": "Good Deeds Josh",
     "description": "use wisely",
     "emote":{
-        "isLoop": "false",
+        "isLoop": "true",
         "returnTick": 2,
         "beginTick":0,
         "endTick":110,
