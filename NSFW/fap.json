@@ -9,6 +9,7 @@
         "endTick":60,
         "stopTick":61,
         "degrees":false,
+        "nsfw":true,
         "moves":[
             
             {
