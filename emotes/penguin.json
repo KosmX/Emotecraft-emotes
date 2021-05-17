@@ -1,7 +1,7 @@
 {
-    "name": "pinguin",
+    "name": "penguin",
     "author": "iMaterix",
-    "description": "pinguin walk",
+    "description": "penguin walk",
     "emote":{
         "isLoop": "true",
         "returnTick": 2,

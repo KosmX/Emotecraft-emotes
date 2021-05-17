@@ -1,7 +1,7 @@
 {
-    "name": "tell",
+    "name": "gestures",
     "author": "iMaterix",
-    "description": "tell smth",
+    "description": "make gestures",
     "emote":{
         "isLoop": "true",
         "returnTick": 2,
